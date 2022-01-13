@@ -1,0 +1,153 @@
+.home-page__header
+  justify-content: space-between
+
+.header-navbar
+  height: 100%
+  display: flex
+  align-items: center
+
+.header-navbar
+  a
+    display: flex
+    margin-right: 10px
+    font-size: 16px
+    color: var(--color-text)
+    text-decoration: none
+    background-image: linear-gradient(var(--text-color), var(--text-color))
+    background-position: 0% 100%
+    background-repeat: no-repeat
+    background-size: 0% 2px
+    transition: background-size .3s
+  a:last-child
+    margin-right: 20px
+  a:visited
+    color: var(--text-color)
+  a.active
+    background-size: 100% 2px
+  a:hover
+    background-size: 100% 2px
+
+.home-page__section
+  display: flex
+  flex-direction: column
+  flex: 1
+  min-height: 850px
+  position: relative
+  margin: 0 20px
+  padding-top: 50px
+  margin-top: -50px
+  -webkit-background-clip: content-box
+  background-clip: content-box
+
+.dropdown
+  display: none
+  position: relative
+  height: 100%
+  align-items: center
+  &:hover
+    .dropdown-btn
+      background: #dbdbdb
+    .dropdown-content
+      display: block
+
+.dropdown-content
+  display: none
+  position: absolute
+  background-color: #f1f1f1
+  right: 0
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+  z-index: 1
+  a
+    display: flex
+    font-size: 20px
+    padding: 10px
+    color: var(--color-text)
+    text-decoration: none
+    margin: 0
+  a.active
+    background: #dbdbdb
+  a:visited
+    color: var(--text-color)
+
+.dropdown-btn
+  height: 100%
+  cursor: pointer
+  display: flex
+  align-items: center
+  color: var(--text-color)
+  padding: 0 20px
+  &:hover
+    background: var(--color-grey)
+    .dropdown-content
+      display: flex
+
+#container
+  margin: 0 auto
+
+subheader
+  position: sticky
+  top: 0
+  width: 100%
+  height: 40px
+  display: flex
+  align-items: center
+  #breadcrumbs
+    color: var(--font-color)
+    padding: 0 20px
+    a
+      text-decoration: none
+      color: var(--font-color)
+      font-weight: var(--font-weight-light)
+    a:visited
+      text-decoration: none
+      color: var(--font-color)
+
+.chart-container
+  display: flex
+  flex: 1
+  align-items: center
+
+.engineering-activities-btn
+  background: radial-gradient(circle at 0 100%, rgba(0,0,0,0) 150px, #e3e3e3 10px), radial-gradient(circle at 100% 100%, rgba(0,0,0,0) 150px, #e3e3e3 10px), radial-gradient(circle at 100% 0, rgba(0,0,0,0) 150px, #e3e3e3 10px), radial-gradient(circle at 0 0, rgba(0,0,0,0) 150px, #e3e3e3 10px)
+  background-position: bottom left, bottom right, top right, top left
+  background-size: 50% 50%
+  background-repeat: no-repeat
+  font-size: 16px
+  line-height: 22px
+  text-align: center
+  display: flex
+  height: 300px
+  width: 300px
+  align-items: center
+  justify-content: center
+  position: absolute
+  top: 25%
+  color: var(--text-color)
+  text-decoration: none
+  font-size: 20px
+  line-height: 26px
+  cursor: pointer
+  transition: background .3s
+  &:hover
+    background: radial-gradient(circle at 0 100%, rgba(0,0,0,0) 150px, #f0f0f0 10px), radial-gradient(circle at 100% 100%, rgba(0,0,0,0) 150px, #f0f0f0 10px), radial-gradient(circle at 100% 0, rgba(0,0,0,0) 150px, #f0f0f0 10px), radial-gradient(circle at 0 0, rgba(0,0,0,0) 150px, #f0f0f0 10px)
+    background-position: bottom left, bottom right, top right, top left
+    background-size: 50% 50%
+    background-repeat: no-repeat
+    transition: background .3s
+
+.highcharts-root
+  width: 100% !important
+  height: 100% !important
+
+.highcharts-container
+  width: auto !important
+  height: auto !important
+
+#lightgallery
+  display: flex
+  flex-wrap: wrap
+  a
+    margin: 10px
+    img
+      width: 640px
+      height: 320px

@@ -1,0 +1,68 @@
+main
+  display: flex
+  flex-direction: column
+  flex: 1
+
+header
+  width: 100%
+  position: sticky
+  top: 0
+  z-index: 1
+  height: var(--header-height)
+  min-height: 64px
+  background-color: var(--header-color)
+  box-shadow: 0px 10px 20px -9px rgba(34, 60, 80, 0.4)
+  display: flex
+  align-items: center
+  a
+    color: var(--text-color)
+    overflow: hidden
+    white-space: nowrap
+    text-overflow: ellipsis
+    display: flex
+    align-items: center
+    margin-left: 10px
+    font-size: 22px
+    font-style: normal
+    text-decoration: none
+    &:visited
+      color: var(--text-color)
+    .logo-text
+      display: flex
+      align-items: center
+      margin-left: 8px
+      color: var(--text-color)
+    img
+      max-width: 50px
+      max-height: 50px
+      margin-left: 20px
+  a:not(:first-child)
+    text-decoration: none
+    background-image: linear-gradient(var(--text-color), var(--text-color))
+    background-position: 0% 100%
+    background-repeat: no-repeat
+    background-size: 0% 2px
+    transition: background-size .3s
+  a:hover:not(:first-child)
+    background-size: 100% 2px
+
+footer
+  display: flex
+  align-items: center
+  min-height: 64px
+  position: sticky
+  bottom: 0
+  width: 100%
+  height: var(--footer-height)
+  background-color: var(--color-grey)
+  box-shadow: 0px -10px 20px -9px rgba(34, 60, 80, 0.25)
+  justify-content: space-between
+
+.socials
+  a
+    color: black
+    text-decoration: none
+    &:visited
+      color: black
+    i
+      margin-right: 10px

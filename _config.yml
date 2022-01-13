@@ -1,0 +1,37 @@
+title: Jekyll Theme Saifas
+author:
+  name: SAIFAS
+copyright: © SAIFAS
+version: 1.0.0
+lang: en_US
+author: SAIFAS
+email: info@saifas.org
+about: Jekyll Theme Saifas
+
+# Build settings
+theme: jekyll-theme-saifas
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+
+sass:
+  sass_dir: /_sass/
+
+assets_root_path: /jekyll-stack/assets/
+assets_styles_path: /jekyll-stack/assets/css/styles.sass
+
+social_media_facebook_handle: saifascom
+social_media_facebook_url : "https://www.facebook.com/saifascom"
+
+social_media_linkedin_handle: saifas
+social_media_linkedin_url : "https://www.linkedin.com/company/saifas/"
+
+social_media_twitter_handle: saifascom
+social_media_twittern_url : "https://twitter.com/saifascom"
+
+social_media_github_handle: saifas-bi
+social_media_github_url: "https://github.com/saifas-bi"
+
+logo: "/assets/graphics/images/domain/saifas-bi/logos/saifas-brand-logo-star-theme-blue-black-276px-269px.png"
+favicon: "/assets/graphics/images/domain/saifas-bi/icons/fav-icons/saifas-brand-logo-star-theme-blue-black-256px-256px.ico"

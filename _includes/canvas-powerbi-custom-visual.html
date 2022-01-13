@@ -1,0 +1,42 @@
+<div class="details__card">
+  <div class="details__card-image">
+    <img src={{ include.imageUrl }} >
+  </div>
+  <div class="details__card-text">
+    <div class="details__card-title">
+      Table
+    </div>
+    <div class="details__card-description">
+      <img src="/assets/graphics/images/content/powerbi-icon-960px-1280px.png" alt="">
+      PowerBI visual
+    </div>
+    <div class="details__card-cost">
+      Pricing
+      <div class="cost">
+        {{ include.cost }}
+      </div>
+    </div>
+    <button class="get-it-now-button btn">Get it now</button>
+  </div>
+  <div class="details__card-buttons">
+    <a target="_blank" class="btn" href="{{ page.issuesLink }}">Issues</a>
+    <a class='btn' href='./reports'>Reports</a>
+    <a class='btn btn--purchase disabled' href=''>Purchase</a>
+  </div>
+</div>
+<div class="custom-visual__description">
+  <div class="main-features__title">Main features
+    <div class="custom-visual__description-text">
+      <ul>
+        {{ include.mainFeaturesDescription }}
+      </ul>
+    </div>
+  </div>
+  <div class="most-popular-use-cases__title">Most popular use cases
+    <div class="custom-visual__description-text">
+      <ul>
+        {{ include.mostPopularUseCasesDescription }}
+      </ul>
+    </div>
+  </div>
+</div>

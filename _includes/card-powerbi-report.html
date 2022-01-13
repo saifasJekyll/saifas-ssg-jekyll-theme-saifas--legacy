@@ -1,0 +1,28 @@
+<div class="custom-visual-report__card">
+  <div class="card__top-section">
+    <div class="top-section__icon">
+      <img src="{{report.image}}" alt="">
+    </div>
+    <div class="top-section__title">
+      {{report.title}}
+      <div class="top-section__description">
+        <img src="/assets/graphics/images/content/powerbi-icon-report-theme-white-black-900px-900px.png" alt="">
+        Power BI report
+      </div>
+    </div>
+  </div>
+  <div class="main-section">
+    <div class="main-section__description">
+      {{report.description}}
+    </div>
+  </div>
+  <div class="report-cards-section">
+    <div class="cards-section__top">
+      <a class="btn" href="{{report.detailsLink}}">Details</a>
+    </div>
+    <div class="cards-section__bottom">
+      <a class="btn" href="{{report.embeddedLink}}">Embedded</a>
+      <a class="btn" href="{{report.publishedLink}}">Published</a>
+    </div>
+  </div>
+</div>

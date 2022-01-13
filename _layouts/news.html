@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include page-base-assets.html %}
+
+  {% include page-preloader.html %}
+
+  <title>
+    {{ page.title }}
+  </title>
+
+  <body>
+
+    <header>
+      {% include page-header-logo.html %}
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    {% include page-footer.html %}
+
+  </body>
+
+</html>

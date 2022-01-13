@@ -1,0 +1,107 @@
+<footer>
+  <div class="conctact-us-btn">
+    <i class="fas fa-comment fa-2x"></i>
+    Contact us
+  </div>
+  <!-- <address class="footer__contact-us">
+    For purchasing any custom visual, please contact: <a style="margin-left: 4px;" href="mailto:bi-support@saifas.org">bi-support@saifas.org</a>
+  </address> -->
+  <div class="watermark">
+    <div class="socials">
+      <a target="_blank" href="{{site.social_media_github_url}}">
+        <i class="fab fa-github fa-lg"></i>
+      </a>
+      <a target="_blank" href="{{site.social_media_facebook_url}}">
+        <i class="fab fa-facebook fa-lg"></i>
+      </a>
+      <a target="_blank" href="{{site.social_media_linkedin_url}}">
+        <i class="fab fa-linkedin fa-lg"></i>
+      </a>
+      <a target="_blank" href="{{site.social_media_twittern_url}}">
+        <i class="fab fa-twitter fa-lg"></i>
+      </a>
+    </div>
+    {{ site.copyright }}
+  </div>
+
+</footer>
+
+<div id="modal"></div>
+	<div class="modalBody">
+    <i class="fas fa-times fa-lg modal-close"></i>
+    <form class="contact-form" action="https://usebasin.com/f/d773310b9def" method="POST">
+      <div class="headline modal-headline">Send a message</div>
+      <div class="form-elem__container">
+        <div class="three-form-elements">
+          <div class="form-elem">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" required>
+          </div>
+          <div class="form-elem">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" required>
+          </div>
+          <div class="form-elem">
+            <label for="organization">Organization</label>
+            <input type="text" id="organization" name="organization" required>
+          </div>
+        </div>
+        <div class="two-form-elements">
+          <div class="form-elem">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-elem">
+            <label for="phone-number">Phone number</label>
+            <input type="tel" id="phone-number" name="phone-number" required>
+          </div>
+        </div>
+        <div class="two-form-elements">
+          <div class="form-elem">
+            <label for="country">Country</label>
+            <input type="text" id="country" name="country" required>
+          </div>
+          <div class="form-elem">
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" required>
+          </div>
+        </div>
+        <div class="two-form-elements">
+          <div class="form-elem">
+            <label for="application-direction">Application direction</label>
+            <select id="application-direction" name="application-direction" required>
+              <option value="support">Support</option>
+              <option value="purchase">Purchase</option>
+            </select>
+          </div>
+          <div class="form-elem">
+            <label for="application-type">Application type</label>
+            <div class="form-radio-buttons-container">
+              <input type="radio" id="question" name="application-type" value="question"></input>
+              <div class="radio-button-text">Question</div>
+              <input type="radio" id="suggestion" name="application-type" value="suggestion"></input>
+              <div class="radio-button-text">Suggestion</div>
+            </div>
+          </div>
+        </div>
+        <div class="form-elem">
+          <label for="application-text">Application text</label>
+          <textarea id="application-text" name="application-text"></textarea>
+        </div>
+      </div>
+      <input class="form-current-page" name="current-page" value="{{ page.title }}"></input>
+      <button class="btn" type="submit">Submit</button>
+      <!-- Имя
+      Фамилия
+      Организация
+      Почта
+      Страна
+      Город
+      Телефон
+      Направление обращения (support, purchase) application direction
+      Тип обращения (вопрос или предложение) радио баттон Application type (question and suggestion)
+      Текст письма application text
+      С какой страницы ушло письмо -->
+    </form>
+	</div>
+</div>
