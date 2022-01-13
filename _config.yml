@@ -9,7 +9,6 @@ email: info@saifas.org
 about: Jekyll Theme Saifas
 
 # Build settings
-theme: jekyll-theme-saifas
 
 plugins:
  - jekyll-feed
