@@ -3,7 +3,7 @@
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-saifas"
   spec.version       = "0.1.0"
-  spec.authors       = ["Dmitriy E"]
+  spec.authors       = ["SAIFAS"]
   spec.email         = ["dsanich@saifas.org"]
 
   spec.summary       = "TODO: Write a short summary, because Rubygems requires one."

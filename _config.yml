@@ -17,8 +17,8 @@ plugins:
 sass:
   sass_dir: /_sass/
 
-assets_root_path: /jekyll-stack/assets/
-assets_styles_path: /jekyll-stack/assets/css/styles.css
+assets_root_path: /assets/
+assets_styles_path: /assets/css/styles.sass
 
 social_media_facebook_handle: saifascom
 social_media_facebook_url : "https://www.facebook.com/saifascom"
