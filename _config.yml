@@ -30,5 +30,5 @@ social_media_twittern_url : "https://twitter.com/saifascom"
 social_media_github_handle: saifas-bi
 social_media_github_url: "https://github.com/saifas-bi"
 
-logo: "./assets/graphics/images/domain/saifas-bi/logos/saifas-brand-logo-star-theme-blue-black-276px-269px.png"
-favicon: "./assets/graphics/images/domain/saifas-bi/icons/fav-icons/saifas-brand-logo-star-theme-blue-black-256px-256px.ico"
+logo: "assets/graphics/images/domain/saifas-bi/logos/saifas-brand-logo-star-theme-blue-black-276px-269px.png"
+favicon: "assets/graphics/images/domain/saifas-bi/icons/fav-icons/saifas-brand-logo-star-theme-blue-black-256px-256px.ico"
