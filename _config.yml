@@ -11,8 +11,6 @@ about: Jekyll Theme Saifas
 # Build settings
 
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
 
 sass:
   sass_dir: /_sass/
