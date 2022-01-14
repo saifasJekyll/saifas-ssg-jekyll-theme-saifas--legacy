@@ -4,9 +4,9 @@ Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-saifas"
   spec.version       = "0.1.0"
   spec.authors       = ["SAIFAS"]
-  spec.email         = ["info@saifas.org"]
+  spec.email         = ["jekyll@saifas.info"]
 
-  spec.summary       = "This is Jekyll Theme Saifas"
+  spec.summary       = "Jekyll theme 'SAIFAS'"
   spec.homepage      = "https://github.com/SAIFAS/saifas-theme-on-jekyll"
   spec.license       = "MIT"
 
