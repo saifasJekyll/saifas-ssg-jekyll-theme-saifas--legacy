@@ -10,7 +10,7 @@ about: Jekyll theme 'SAIFAS'
 
 # Build settings
 
-plugins:
+gems:
 
 sass:
   sass_dir: /_sass/

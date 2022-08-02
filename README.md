@@ -50,3 +50,5 @@ To add a custom directory to your theme-gem, please edit the regexp in `jekyll-t
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
+## Update gem 
+If you need to update the gem file, after all the changes and commits, you need to run a gem build for the file with the gemspec extension and then gem push "here is the file that builded". 
