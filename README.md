@@ -1,4 +1,9 @@
-# jekyll-theme-saifas
+# Jekyll theme 'SAIFAS'
+
+#jekyll-theme-saifas
+
+Theme's ruby gem published on https://rubygems.org/gems/jekyll-theme-saifas
+
 
 Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
 
