@@ -59,3 +59,6 @@ The theme is available as open source under the terms of the [MIT License](https
 
 ## Update gem 
 If you need to update the gem file, after all the changes and commits, you need to run a gem build for the file with the gemspec extension and then gem push "here is the file that builded". 
+
+## Deploy
+To set up the configuration and download the gem on github packages - https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-rubygems-registry
