@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-theme-saifas"
-  spec.version       = "0.1.5"
+  spec.name          = "jekyll-theme-saifas-legacy"
+  spec.version       = "0.1.7"
   spec.authors       = ["SAIFAS"]
   spec.email         = ["jekyll@saifas.info"]
 
   spec.summary       = "Jekyll theme 'SAIFAS'"
-  spec.homepage      = "https://github.com/JekyllGO/saifas-ssg-jekyll-theme-saifas-zero"
+  spec.homepage      = "https://github.com/JekyllGO/saifas-ssg-jekyll-theme-saifas-legacy"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
